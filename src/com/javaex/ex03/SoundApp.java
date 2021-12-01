@@ -10,7 +10,7 @@ public class SoundApp {
     }
 
     public static void printSound( Soundable soundable ) {
-        if(soundable instanceof Dog) {	
+        /*if(soundable instanceof Dog) {	
         	System.out.println(((Dog)soundable).sound());
         } else if(soundable instanceof Cat) {
         	System.out.println(((Cat)soundable).sound());
@@ -18,7 +18,8 @@ public class SoundApp {
         	System.out.println(((Sparrow)soundable).sound());
         } else {
         	System.out.println(((Duck)soundable).sound());
-        }
+        }*/
+    	System.out.println(soundable.sound());
     }
     
 }
