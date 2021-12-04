@@ -11,7 +11,6 @@ public class SoundApp {
 
     public static void printSound( Soundable soundable ) {
         /*
-        내가 짠 코드 맞는지 모르겠음 복잡함
         if(soundable instanceof Dog) {	
         	System.out.println(((Dog)soundable).sound());
         } else if(soundable instanceof Cat) {
